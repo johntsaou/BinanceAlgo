@@ -83,7 +83,7 @@ def on_message(ws, message):
     if is_candle_closed:
         print("candle closed at {}".format(close))
         closes.append(float(close))
-        print("closes, magkas")
+        print("closes")
         print(closes, len(closes))
 
 
